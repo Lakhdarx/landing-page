@@ -99,3 +99,45 @@ img {
     border-radius: 8px;
     cursor: pointer;
 }
+
+
+/* info styling*/ 
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 38px;
+    padding: 38px 0 100px 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #0096FF;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #E5E7EB;
+    filter: contrast(0%);
+    text-align: center;
+}
+
+
+.item {
+    width: 150px;
+}
