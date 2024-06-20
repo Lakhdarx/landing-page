@@ -215,3 +215,14 @@ img {
     color: #E5E7EB;
     filter: contrast(90%);
 }
+
+/* footer styling*/
+
+.footer {
+    background: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
