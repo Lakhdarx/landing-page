@@ -174,3 +174,44 @@ img {
     width: max-content;
     
 }
+
+/* the signup area styling */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0 85px 0;
+
+}
+
+
+.blue-box {
+    display: flex;
+    background: #3882F6;
+    padding: 40px 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 80px;
+}
+
+#sign {
+    border: 2px solid #E5E7EB;
+    padding: 5px 27px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#left #main {
+    color:#E5E7EB;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+#left #second {
+    color: #E5E7EB;
+    filter: contrast(90%);
+}
