@@ -143,6 +143,7 @@ img {
 
 .item {
     width: 150px;
+    transition: all 0.5s;
 }
 
 /* quote section styling */
@@ -202,8 +203,9 @@ img {
 #sign {
     border: 2px solid #E5E7EB;
     padding: 5px 27px;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s;
 }
 
 #left #main {
@@ -233,14 +235,23 @@ img {
 
 /* effects*/
 
-.button:hover {
+.signup:hover {
     cursor: pointer;
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.5);
     transition: all 0.5s;
 }
 
+#sign:hover {
+    cursor: pointer;
+    background: #E5E7EB;
+    color: #3882F6;
+}
+
 .right-links li:hover,
 .item:hover {
-    transform: scale(1.08);
-    transition: all 0.5s;
+    transform: scale(1.08);  
 } 
+
+.header li {
+    transition: all 0.5s;
+}
