@@ -1,3 +1,6 @@
-https://www.theodinproject.com/lessons/foundations-landing-page
+<h1>Basic Landing Page</h1>
 
-Making a pre-designed landing page using HTML/CSS.
+A simple home page made using HTML/CSS.
+
+
+https://www.theodinproject.com/lessons/foundations-landing-page
